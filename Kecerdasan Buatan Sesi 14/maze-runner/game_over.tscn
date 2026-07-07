@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://gbt8g6nfljse"]
+
+[ext_resource type="Script" uid="uid://bpmo05iqxt8nr" path="res://control.gd" id="1_y26ei"]
+
+[node name="Control" type="Control" unique_id=459381911]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_y26ei")
+
+[node name="GameOver" type="Label" parent="." unique_id=1105481983]
+layout_mode = 0
+offset_left = 330.0
+offset_top = 273.0
+offset_right = 611.0
+offset_bottom = 296.0
+scale = Vector2(1.6, 1.64)
+text = "GAME OVER!! Tekan R untuk Restart!"
